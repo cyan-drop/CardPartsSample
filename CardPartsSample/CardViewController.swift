@@ -13,7 +13,6 @@ class CardViewController: CardsViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         let cards: [CardPartsViewController] = [
             CardPartTextController(), 
             ThemedCardViewController(title: "News!"),
